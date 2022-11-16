@@ -9,7 +9,7 @@ datasource db {
 
 model Product {
   productId       Int    @id @default(autoincrement())
-  productName     String @db.VarChar(50)
+  productName     String @db.VarChar(100)
   productImage    String
   discount        Int
   originalPrice   Int

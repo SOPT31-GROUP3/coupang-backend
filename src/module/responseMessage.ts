@@ -5,7 +5,13 @@ const message = {
   INTERNAL_SERVER_ERROR: '서버 내부 오류',
 
   // 유저
-  GET_USER_SUCCESS: "유저 정보 조회 성공"
+  GET_USER_SUCCESS: "유저 정보 조회 성공",
+
+  //* 오늘의 상품 조회
+  GET_TODAY_PRODUCT_SUCCESS: "오늘의 상품 조회 성공",
+  //* 베스트 상품 조회
+  GET_BEST_PRODUCT_SUCCESS: "베스트 상품 조회 성공"
+
 };
 
 export default message;

@@ -4,7 +4,8 @@ const message = {
   BAD_REQUEST: '잘못된 요청',
   INTERNAL_SERVER_ERROR: '서버 내부 오류',
 
-  SUCCESS: '성공',
+  // 유저
+  GET_USER_SUCCESS: "유저 정보 조회 성공"
 };
 
 export default message;

@@ -1,0 +1,1 @@
+export { default as myCoupangService } from "./MyCoupangService"

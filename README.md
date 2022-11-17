@@ -8,15 +8,15 @@
 ├── nodemone.json
 ├── package.json
 ├── .gitignore
-├── .eslintignore
-├── .eslintrc.json
-├── docker-compose.yml
-├── tsoa.json
+├── .env
+├── yarn.lock
+├── prisma
+├── node_modules
 └── src
     ├── controller
     ├── service
-	  ├── router
-		├── module
+    ├── router
+    ├── module
     └── index.ts 
 ```
 

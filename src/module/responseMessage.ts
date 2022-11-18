@@ -10,7 +10,9 @@ const message = {
   //* 오늘의 상품 조회
   GET_TODAY_PRODUCT_SUCCESS: "오늘의 상품 조회 성공",
   //* 베스트 상품 조회
-  GET_BEST_PRODUCT_SUCCESS: "베스트 상품 조회 성공"
+  GET_BEST_PRODUCT_SUCCESS: "베스트 상품 조회 성공",
+  //* 카테고리 상품 조회
+  GET_CATEGORY_PRODUCT_SUCCESS: "카테고리 상품 조회 성공",
 
 };
 

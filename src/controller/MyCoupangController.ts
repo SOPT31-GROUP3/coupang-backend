@@ -8,11 +8,11 @@ const getMyCoupangUser = async (req: Request, res: Response) => {
     const { userId } = req.params;
 
     if (!userId) {
-        return res.status(400).json({ status: statuscode.BAD_REQUEST, message: message.NOT_FOUND })
+        return res.status(statuscode.BAD_REQUEST).json({ status: statuscode.BAD_REQUEST, message: message.NOT_FOUND })
     }
 
     const getMyCoupangUser = await myCoupangService.getMyCoupangUser(+userId);
-    return res.status(200).json({ status: statuscode.OK, message: message.GET_USER_SUCCESS, getMyCoupangUser })
+    return res.status(statuscode.OK).json({ status: statuscode.OK, message: message.GET_USER_SUCCESS, getMyCoupangUser })
 }
 
 

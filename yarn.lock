@@ -181,6 +181,7 @@
     "normalize-path" "~3.0.0"
     "readdirp" "~3.6.0"
   optionalDependencies:
+
     "fsevents" "~2.3.2"
 
 "concat-map@0.0.1":
@@ -547,6 +548,7 @@
   "integrity" "sha512-BR4itMCuzrDV4tn3e2TF+nh1zIX/RVU0isKtKoN28ADeoJ9nYaMhiuRRkFd2TZN8+l/XfYzoRKyHzUFXLQhmBQ=="
   "resolved" "https://registry.npmjs.org/prisma/-/prisma-4.6.1.tgz"
   "version" "4.6.1"
+
   dependencies:
     "@prisma/engines" "4.6.1"
 

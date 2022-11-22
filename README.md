@@ -61,3 +61,7 @@
 - [modify] : 코드 수정 (기능의 변화가 있을 때)
 - [chore] : gradle 세팅, 위의 것 이외에 거의 모든 것
 
+## Server Architecture
+<img width="423" alt="image" src="https://user-images.githubusercontent.com/81394850/202871660-0cde45c6-8b26-4db9-a0d8-af2556199ff9.png">
+
+
